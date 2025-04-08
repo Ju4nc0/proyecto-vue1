@@ -28,10 +28,11 @@ import { schema } from '../schemas/validationSchema';
 import { useRegistrarStore } from '../stores/registrarStore';
 import {ref} from 'vue';
 
+
 const registratStore = useRegistrarStore();
 
-const nombre = ref('');
-const email = ref('');
+const nombre = ref("");
+const email = ref("");
 
 const onSubmit = () =>{
     registratStore.guardarRegistro(nombre.value, email.value);

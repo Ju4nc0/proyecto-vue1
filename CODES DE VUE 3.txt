@@ -1,0 +1,8 @@
+code para hacer un vue 3 de cero
+npm create vue@latest
+
+en caso de clonar en otro pc, asi se instalan las dependencias
+npm install
+
+correr programa
+npm run dev
