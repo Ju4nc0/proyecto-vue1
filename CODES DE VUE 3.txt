@@ -20,3 +20,6 @@ import {ref} from 'vue';
 
 
 //v-model guarda el texto
+
+
+//revisa que hace defineprops
