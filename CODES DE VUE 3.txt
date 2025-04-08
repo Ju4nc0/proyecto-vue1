@@ -6,3 +6,17 @@ npm install
 
 correr programa
 npm run dev
+
+
+//instalar acios permite hacer peticiones
+npm install axios
+
+// si en un proceso similar al de sacar temperatura y usas alguncode
+//con async debes agregarle un await o  sino no esperará el dato
+// y saldrá como resultado un "[object Promise]"
+
+//convierte variables a variables reactivas
+import {ref} from 'vue';
+
+
+//v-model guarda el texto
